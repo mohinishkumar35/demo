@@ -1,0 +1,316 @@
+html{
+    overflow-x: hidden;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    overflow-x: auto;
+}
+
+nav{
+    display: flex;
+    margin: auto;
+    border: 2px solid black;
+    background-color: aqua;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow-x: hidden;
+    position: sticky;
+    top: 0px;
+}
+
+nav .midnav{
+    display:flex;
+    list-style-type: none;
+}
+
+nav .midnav li a{
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav .startnav{
+    list-style-type: none;
+}
+
+nav .startnav li img{
+    width: 90px;
+}
+
+nav .endnav{
+    list-style-type: none;
+}
+
+nav .endnav li a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(32,32,51);
+    padding: 10px 20px 10px 20px;
+}
+
+.hero{
+    justify-content: space-around;
+    background-color: blanchedalmond;
+    border: 2px solid black;
+    overflow-x: hidden;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.detail{
+    margin-left: 8%;
+    margin-top: 13%;
+    overflow-x: hidden;
+}
+
+.detail h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: silver;
+}
+
+.detail h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.detail h3{
+    font-size: 20px;
+    color: rgb(91, 74, 74);
+}
+
+button{
+    background-color: gold;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 0px;
+    transition: .4s;
+    width: 10%;
+}
+
+button :hover{
+    background-color: transparent;
+    border: 2px solid gold;
+    cursor: pointer;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: 90%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.about{
+    width:100%;
+    padding:100px 0px;
+    background-color:lightgray;
+}
+
+.about img{
+    height: 300px;
+    width: 430px;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2{
+    color: black;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    width: 30%;
+    background-color: aqua;
+    color: white;
+}
+
+.main .endnav{
+    list-style-type: none;
+}
+
+.main .endnav li a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(32,32,51);
+    padding: 10px 20px 10px 20px;
+}
+
+.Service{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: beige;
+    overflow-x: hidden;
+}
+
+.title h2{
+    color: black;
+    background: slategray;
+    font-size: 75px;
+    width: 1130px;
+    margin: 10px auto;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    align-items:center;
+    min-height: 200px;
+    
+}
+
+.card{
+    height: 200px;
+    width: 200px;
+    padding: 20px 35px;
+    background: lightgreen;
+    border-radius: 10px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.cardi{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: red;
+}
+
+h5{
+    color: black;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.para p{
+    color: pink;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+#UX {
+    font-size: 25px;
+    color: white;
+    background-image: linear-gradient(red,green);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#Web {
+    font-size: 25px;
+    color: white;
+    background-image: linear-gradient(yellow,green);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#App {
+    font-size: 25px;
+    color: white;
+    background-image: linear-gradient(pink,green);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#Design {
+    font-size: 25px;
+    color: white;
+    background-image: linear-gradient(grey,green);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+@media(max-width:769px){
+    #mainskill{
+        display: grid;
+        grid-template-columns: auto;
+        padding: 100px;
+    }
+
+    #owsomes{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
